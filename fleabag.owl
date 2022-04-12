@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#"
+     xml:base="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag">
+        <rdfs:comment xml:lang="en">Ontology for series based in the comedy-drama television series &quot;Fleabag&quot;, realized as an exercise for the &quot;Representació del coneixement&quot; course in Universitat Oberta de Catalunya.
+Author: Nona Vilarrasa Rull</rdfs:comment>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Aggregator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Aggregator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Review"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Award"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Award"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Actress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Actress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Award"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Series -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Series">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Award"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Writing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Best_Writing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Award"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Composer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Composer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Distribution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Episode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Episode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Journal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Journal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Review"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Online -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Online">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Review"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Original_language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Original_language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Physical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Season"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Streaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Streaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Television -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Television">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Voice_actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Voice_actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Writer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Writer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nona/ontologies/2022/3/fleabag#Person"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
